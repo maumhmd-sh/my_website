@@ -28,6 +28,7 @@ declare module 'vue-router/auto-routes' {
     '/gallery': RouteRecordInfo<'/gallery', '/gallery', Record<never, never>, Record<never, never>>,
     '/giving-talks': RouteRecordInfo<'/giving-talks', '/giving-talks', Record<never, never>, Record<never, never>>,
     '/notes': RouteRecordInfo<'/notes', '/notes', Record<never, never>, Record<never, never>>,
+    '/post/placeholder': RouteRecordInfo<'/post/placeholder', '/post/placeholder', Record<never, never>, Record<never, never>>,
     '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
     '/talks': RouteRecordInfo<'/talks', '/talks', Record<never, never>, Record<never, never>>,
     '/use': RouteRecordInfo<'/use', '/use', Record<never, never>, Record<never, never>>,
@@ -82,6 +83,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/notes.md': {
       routes: '/notes'
+      views: never
+    }
+    'pages/post/placeholder.md': {
+      routes: '/post/placeholder'
       views: never
     }
     'pages/projects.md': {
