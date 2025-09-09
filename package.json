@@ -2,16 +2,17 @@
   "type": "module",
   "private": true,
   "packageManager": "pnpm@10.15.1",
-  "scripts": {
-    "build": "npm run static && cross-env NODE_ENV=production vite-ssg build && tsx ./scripts/copy-fonts.ts && tsx ./scripts/rss.ts && cp _dist_redirects dist/_redirects",
-    "dev": "vite --port 3333 --open",
-    "preview": "vite preview",
-    "redirects": "tsx scripts/redirects.ts",
-    "lint": "eslint .",
-    "compress": "tsx scripts/img-compress-staged.ts",
-    "photos": "tsx scripts/photos-manage.ts",
-    "prepare": "simple-git-hooks"
-  },
+"scripts": {
+  "build": "cross-env NODE_ENV=production vite-ssg build && tsx ./scripts/copy-fonts.ts && tsx ./scripts/rss.ts && cp _dist_redirects dist/_redirects",
+  "dev": "vite --port 3333 --open",
+  "preview": "vite preview",
+  "redirects": "tsx scripts/redirects.ts",
+  "lint": "eslint .",
+  "compress": "tsx scripts/img-compress-staged.ts",
+  "photos": "tsx scripts/photos-manage.ts",
+  "prepare": "simple-git-hooks"
+},
+
   "dependencies": {
     "@iconify/vue": "^5.0.0",
     "@unhead/vue": "catalog:frontend",
