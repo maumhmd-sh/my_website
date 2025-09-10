@@ -23,13 +23,11 @@ declare module 'vue-router/auto-routes' {
     '/bar': RouteRecordInfo<'/bar', '/bar', Record<never, never>, Record<never, never>>,
     '/bookmarks': RouteRecordInfo<'/bookmarks', '/bookmarks', Record<never, never>, Record<never, never>>,
     '/certification': RouteRecordInfo<'/certification', '/certification', Record<never, never>, Record<never, never>>,
-    '/chat-zh': RouteRecordInfo<'/chat-zh', '/chat-zh', Record<never, never>, Record<never, never>>,
     '/contact': RouteRecordInfo<'/contact', '/contact', Record<never, never>, Record<never, never>>,
     '/gallery': RouteRecordInfo<'/gallery', '/gallery', Record<never, never>, Record<never, never>>,
-    '/giving-talks': RouteRecordInfo<'/giving-talks', '/giving-talks', Record<never, never>, Record<never, never>>,
-    '/notes': RouteRecordInfo<'/notes', '/notes', Record<never, never>, Record<never, never>>,
     '/post/placeholder': RouteRecordInfo<'/post/placeholder', '/post/placeholder', Record<never, never>, Record<never, never>>,
     '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
+    '/use': RouteRecordInfo<'/use', '/use', Record<never, never>, Record<never, never>>,
   }
 
   /**
@@ -63,10 +61,6 @@ declare module 'vue-router/auto-routes' {
       routes: '/certification'
       views: never
     }
-    'pages/chat-zh.md': {
-      routes: '/chat-zh'
-      views: never
-    }
     'pages/contact.md': {
       routes: '/contact'
       views: never
@@ -75,20 +69,16 @@ declare module 'vue-router/auto-routes' {
       routes: '/gallery'
       views: never
     }
-    'pages/giving-talks.md': {
-      routes: '/giving-talks'
-      views: never
-    }
-    'pages/notes.md': {
-      routes: '/notes'
-      views: never
-    }
     'pages/post/placeholder.md': {
       routes: '/post/placeholder'
       views: never
     }
     'pages/projects.md': {
       routes: '/projects'
+      views: never
+    }
+    'pages/use.md': {
+      routes: '/use'
       views: never
     }
   }
