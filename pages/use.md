@@ -3,7 +3,7 @@ title: Use - Maula Muhammad
 display: Use
 subtitle: Things I am using
 description: Things I am using
-art: plum
+art: dots
 ---
 
 [[toc]]

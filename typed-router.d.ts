@@ -21,7 +21,6 @@ declare module 'vue-router/auto-routes' {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...404]': RouteRecordInfo<'/[...404]', '/:404(.*)', { 404: ParamValue<true> }, { 404: ParamValue<false> }>,
     '/bar': RouteRecordInfo<'/bar', '/bar', Record<never, never>, Record<never, never>>,
-    '/bookmarks': RouteRecordInfo<'/bookmarks', '/bookmarks', Record<never, never>, Record<never, never>>,
     '/certification': RouteRecordInfo<'/certification', '/certification', Record<never, never>, Record<never, never>>,
     '/contact': RouteRecordInfo<'/contact', '/contact', Record<never, never>, Record<never, never>>,
     '/gallery': RouteRecordInfo<'/gallery', '/gallery', Record<never, never>, Record<never, never>>,
@@ -51,10 +50,6 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/bar.md': {
       routes: '/bar'
-      views: never
-    }
-    'pages/bookmarks.md': {
-      routes: '/bookmarks'
       views: never
     }
     'pages/certification.md': {
